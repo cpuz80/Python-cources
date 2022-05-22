@@ -1,3 +1,4 @@
+##(C) Starodumov Alexei <AlexS>
 ##Заменить в строке "asdxfghyxyx" все буквы "х" на "у"
 ##громоздко получилось(
 a = 'asdxfghyxyx'
