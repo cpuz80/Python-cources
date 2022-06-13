@@ -1,4 +1,4 @@
-def FuncLD(s,t):
+def funcld(s,t):
     n,m = len(t), len(s)
     q0 = [0]*(n+1)
     q1 = [0]*(n+1)
@@ -24,12 +24,12 @@ def FuncLD(s,t):
 # но будет, если запустить его непосредственно:
 
 if __name__ == '__main__':
-    pairs = [
+    PAIRS = [
     ('pears','mars'),
     ('learning','quit'),
     ('птица','песок'),
     ('собака', 'собаководы'),
     ('длинношеее','короткошерстное'),
     ]
-    for s,t in pairs:
-        print(s,t, FuncLD(s,t))
+    for s,t in PAIRS:
+        print(s,t, funcld(s,t))
